@@ -20,7 +20,7 @@ url = "https://{0}/api/reference_data/sets/{1}".format(qradar['ip'], qradra['ref
 
 payload = ""
 headers = {
-	'SEC': "xxxxxxxxxx-xxxxxxxxxxx-xxxxxxxx",
+	'SEC': "xxxxxxxxxx-xxxxxxxxxxx-xxxxxxxx", #QRadar SIEM Auth Token
 	}
 
 refSetItem = []
