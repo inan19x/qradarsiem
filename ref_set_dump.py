@@ -16,7 +16,7 @@ qradar['ip']        = 'x.x.x.x' #QRadar SIEM IP Address
 qradar['ref_name']  = 'xxxxxxx' #QRadar SIEM Reference Set Name
 
 # form the QRadar SIEM API url
-url = "https://{0}/api/reference_data/sets/{1}".format(qradar['ip'], qradra['ref_name'])
+url = "https://{0}/api/reference_data/sets/{1}".format(qradar['ip'], qradar['ref_name'])
 
 payload = ""
 headers = {
